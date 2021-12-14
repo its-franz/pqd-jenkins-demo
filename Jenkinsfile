@@ -17,7 +17,7 @@ pipeline{
                 stage('Test'){
             steps{
                 echo 'Testing...'
-                sleep 5
+                exit 1
             }
         }
                 stage('Deploy'){
